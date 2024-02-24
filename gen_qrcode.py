@@ -26,6 +26,6 @@ def generate_qr_code(data, file_name, pixel_size=240):
     qr_img.save(file_name)
 
 # Example usage:
-data_to_encode = "https://example.com"
-output_file = "example_qr_code.png"
+data_to_encode = "https://google.com"
+output_file = "google.png"
 generate_qr_code(data_to_encode, output_file)
